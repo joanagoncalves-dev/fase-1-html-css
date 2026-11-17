@@ -1,23 +1,29 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --background-color: #f4f4f4;
+    --text-color: #333333;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    background-color: #f4f4f4;
+    background-color: var(--background-color);
     font-family: arial,sans-serif;
     font-size: 1rem;
     line-height: 1.5;
 }
 h1 {
-    color: #2c3e50;
+    color: var(--primary-color);
     font-size: 2.5rem;
 }
 h2 {
     font-size: 2rem;
 }
 p {
-    color: #555;
+    color: var(--text-color);
 }
 .destaque {
     color: red;
@@ -29,14 +35,14 @@ section {
     border: 2px solid black;
 }
 .card {
-    background-color: white;
+    background-color: var(--background-color);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     width: 300px;
 }
 .btn  {
-    background-color: #3498db;
+    background-color: var(--secondary-color);
     color: white;
     padding: 20px;
     margin: 20px;

@@ -7,6 +7,23 @@
     display: flex;
     height: 300px;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 20px;
+    justify-content: center;
     align-items: center;
+}
+.box1 {
+    background-color: #3498db;
+    width: 100px;
+    height: 100px;
+}
+.box2 {
+    background-color: #e74c3c;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+}
+.box3 {
+    background-color: #f1c40f;
+    width: 100px;
+    height: 100px;
 }
